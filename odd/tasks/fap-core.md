@@ -66,5 +66,7 @@ L8: Rule added (not planned): a renamed phase section is drift. A section can ke
 L9: Slice boundary: c1 holds T1-T4, 3497 authored changed lines in one commit. The CLI
     couples the modules, so any smaller split would produce a commit that does not build. The
     delivery shape (single PR or chained PR) is decided when publishing, not here.
-L10: Delivery state: `feat/fap-core`, c1 `20c707a`. Pushing and opening a pull request remain
-    the owner's decisions. License selection is an open decision recorded in the README.
+L10: Delivery state: `feat/fap-core`, c1 `20c707a`, c2 `d4a50fb`. Pushing and opening a pull
+    request remain the owner's decisions.
+L11: License: the owner selected Apache-2.0. `LICENSE` is the canonical text from the system
+    license directory, not a retyped copy.

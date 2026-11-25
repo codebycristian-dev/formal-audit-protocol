@@ -127,4 +127,9 @@ PYTHONPATH=src python3 -m unittest discover -s tests -t .
 
 ## License
 
-Not selected yet. Until a license file is added, all rights are reserved by default.
+Licensed under the Apache License, Version 2.0 — see [`LICENSE`](./LICENSE).
+
+Copyright 2026 Cristian David Dorado Gomez.
+
+The specification `Formal Audit Protocol.md` is the source of truth this tool executes; the
+license covers the tooling, not the audited documents.
