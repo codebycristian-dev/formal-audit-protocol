@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# Run the tool from a source checkout without installing anything.
+set -euo pipefail
+here="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+PYTHONPATH="$here/src${PYTHONPATH:+:$PYTHONPATH}" exec python3 -m fap "$@"
